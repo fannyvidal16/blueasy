@@ -61,16 +61,28 @@
     padding-top: 50px;
     padding-left: 50px;
 }
+.ligne{
+    height: 3px;
+    width: 55px;
+    margin-left: 50px;
+    background-color: white;
+    margin-top: -10px;
+}
 .row{
     padding: 50px;
 }
 .liensPortfolio{
-    height: 80%;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
 }
+
+.titrePortfolio{
+    font-weight: bolder;
+    color: black;
+    font-size: 2rem;
+    text-transform: uppercase;
+
+}
+
 .photo{
     display: flex;
     margin: 5px;
@@ -80,5 +92,245 @@
     text-decoration: none;
     padding: 4px;
     font-weight: bolder;
-    justify-content: row;
+}
+.containerPortfolio{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    margin-bottom: 60px;
+    padding-top: 70px;
+    margin-left: 65px;
+}
+
+.tableauPont{
+    margin-top: -190px;
+}
+.photo{
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+}
+.photo1{
+    background-image: url("images/portfolio/1.png");
+}
+.photo2{
+    background-image: url("images/portfolio/2.png");
+}
+.photo3{
+    background-image: url("images/portfolio/3.png");
+}
+.photo4{
+    background-image: url("images/portfolio/4.png");
+}
+.photo5{
+    background-image: url("images/portfolio/5.png");
+}
+.photo6{
+    background-image: url("images/portfolio/6.png");
+}
+.photo7{
+    background-image: url("images/portfolio/7.png");
+}
+.photo8{
+    background-image: url("images/portfolio/8.png");
+}
+.containerDefault{
+    background-color: #303030;
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+.sectionVideo{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -140px;
+}
+.titreDefault{
+    color: white;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-left: 80px;
+}
+.ligne3{
+    height: 3px;
+    width: 55px;
+    margin-left: 83px;
+    background-color: white;
+    margin-top: -5px;
+}
+.texteDefault{
+    margin-top: 30px;
+    margin-left: 80px;
+    max-height: 800px;
+    max-width: 800px;
+    color: white;
+    width: 500px;
+}
+.boutonVisiter{
+    color:dimgray;
+}
+.video{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.containerTwitter{
+    padding-top: 50px;
+    background-image: url(images/fondservices.png);
+    color: white;
+}
+
+.titreTwitter{
+    color: white;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-left: 80px;
+}
+
+.barTwitter{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.logoTwitter{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 80px;
+    margin-top: 30px;
+}
+
+.texteTwitter{
+    margin-top: 30px;
+    margin-left: 80px;
+    padding-bottom: 50px;
+}
+.containerJohn{
+    background-color: #94B3D4;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.textimage{
+    display: flex;
+    align-self: flex-end;
+}
+.textgroup{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly,flex-start;
+}
+.johnTitre{
+    color: white;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-left: 80px;
+}
+.text3et4{
+    margin-top: 30px;
+    margin-left: 80px;
+    max-height: 800px;
+    max-width: 550px;
+    color: white;
+}
+.text5{
+    margin-top: 20px;
+    max-height: 800px;
+    max-width: 550px;
+    color: white;
+}
+
+
+.containerTestimonials{
+    padding-top: 50px;
+    background-color: white;
+}
+
+.titreTestimonials{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-left: 80px;
+}
+.barTestimonials{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.logoTestimonials{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 80px;
+    margin-top: 30px;
+}
+.texteTestimonials{
+    margin-top: 30px;
+    margin-left: 80px;
+    padding-bottom: 50px;
+}
+.text2Testimonials{
+    color:deepskyblue;
+    font-weight: 700;
+}
+.containerContact{
+    background-color: #94B3D4;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.titreContact{
+    color: white;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-left: 80px;
+    margin-bottom: -100px;
+}
+.mb-3{
+    color: white;
+    margin-left: 80px;
+    padding-top: 10px;
+}
+.oblig{
+    width: 600px;
+}
+.oui{
+    margin-top: 50px;
+}
+.texteContact{
+    margin-left: 800px;
+    margin-top: -160px;
+    width: 500px;
+    color: white;
+}
+.deux{
+    margin-right: 80px;
+}
+.form-control{
+    background-color: transparent;
+}
+.btn{
+    margin-left: 80px;
+    background-color:#11CAEB;
+    border-radius: 0%;
+    width: 400px;
+    height: 50px;
+    border-color: transparent;
+}
+.footer{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    background-color: #303030;
+    height: 100px;
+}
+.liensFooter{
+    margin-left: 70px;
+}
+.liensFooter a{
+    color: lightgrey ;
+    text-decoration: none;
+    margin: 5px
+}
+.annee{
+    display: flex;
+    justify-content: flex-end;
+    color: lightgrey;
+    margin-right: 50px;
+    margin-top: -25px;
 }
